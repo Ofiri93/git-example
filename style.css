@@ -1,0 +1,77 @@
+@font-face {
+    font-family: ubunto;
+    src: url("ubunto.woff2");
+  }
+footer{
+   background-color:rgb(224, 223, 223);
+    width: 100%;
+    height:100%;
+    bottom:0;
+    padding: 40px;
+}
+/*.footer{
+    transform:translate(50px , 50px);
+}*/
+table, tr{
+    width: max-content;
+}
+
+td{
+    width: max-content;
+    padding:10px;
+}
+h2{
+    color:#007897;
+    font-weight: normal;
+}
+
+a{
+    letter-spacing:-1;
+    border-style:solid;
+    border-color: rgb(179, 179, 179);
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-bottom:10px;
+    color:#5d93a2;
+    font-size: 17.333px;
+}
+hr{
+    border: none;
+    height: 1px;
+    width: 90%;
+    background: #ccc;
+    transform:translate(0 , -100px);
+}
+p{
+    letter-spacing:-1;
+    line-height: 30px;
+    color: rgb(128, 128, 128);
+}
+#right{
+    transform:translate(800px , -270px);
+}
+#credit{
+    transform:translate(0px , -100px);
+    letter-spacing:-1;
+    text-align: center;
+    color: rgb(128, 128, 128);
+    font-size:13.667px;
+}
+#button{
+    padding:15px 25px;
+    color: white;
+    background-color:#0089a9;
+    border-radius: 10px;
+    font-size: 17.333px;
+    border:solid 1px #006e8b;
+}
+*{
+    font-family: ubunto;
+}
+
+
+
+
+
